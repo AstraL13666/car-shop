@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Продажа автомобилей</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CarSale</h1>
+        <p>О нас</p>
+    </header>
+
+    <div class="filter">
+        <ul>
+            <li><a href="/index">Главная</a></li>
+            <li><a href="/pages/feedback">Отзывы</a></li>
+            <li><a href="/pages/about">О нас</a></li>
+        </ul>
+    </div>
+
+    <section class="logo-listing">
+        <div class="cards-about">
+            <div class="bottom-section">
+                <div class="logo-icon">
+                    <img src="/img/photo/comp-logo.png" alt="Icon 1">
+                    Мы на рынке более 1 года, но уже во многом преуспели!
+                <br>
+                У нас в продаже многочисленный автопарк, с разными машинами под любые цели!
+                <br>
+                Выбрав нас - Вы делаете правильный выбор!
+                </div>
+            </div>
+            <div class="top-section-true">Спасибо, что выбираете нас!</div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>CarSale</h1>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Продажа автомобилей</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CarSale</h1>
+        <p>Отзывы</p>
+    </header>
+
+    <div class="filter">
+        <ul>
+            <li><a href="/index">Главная</a></li>
+            <li><a href="/pages/coop">Сотрудничество</a></li>
+            <li><a href="/pages/about">О нас</a></li>
+        </ul>
+    </div>
+
+    <section class="car-listing">
+        <div class="card">
+            <div class="top-section-true">Оценка: 4.9</div>
+            <div class="bottom-section">
+                <div class="user-model">Иван</div>
+                <div class="user-icon">
+                    <img src="/img/icon/user.png" alt="Icon 1">
+                    <span>Отличный сервис, администраторы тоже адекватные, все понравилось. <br>Автомобили в хорошем состоянии!</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="top-section-false">Оценка: 2.1</div>
+            <div class="bottom-section">
+                <div class="user-model">Антон</div>
+                <div class="user-icon">
+                    <img src="/img/icon/user-logo.jpg" alt="Icon 1">
+                    <span>Все ужасно, мне не понравилось</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>CarSale</h1>
+    </footer>
+
+</body>
+</html>

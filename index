@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Продажа автомобилей</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CarSale</h1>
+        <p>Продажа авто по низким ценам, но это не точно!</p>
+    </header>
+    <div class="menu">
+        <ul>
+            <li><a href="/pages/feedback">Отзывы</a></li>
+            <li><a href="/pages/coop">Сотрудничество</a></li>
+            <li><a href="/pages/about">О нас</a></li>
+        </ul>
+    </div>
+    <div class="filter">
+        <ul>
+            <li><a href="index.html">audi</a></li>
+            <li><a href="index.html">bmw</a></li>
+            <li><a href="index.html">ford</a></li>
+            <li><a href="index.html">mercedes</a></li>
+            <li><a href="index.html">mitsubishi</a></li>
+            <li><a href="index.html">land rover</a></li>
+        </ul>
+    </div>
+    <section class="car-listing">
+        <div class="card">
+            <div class="top-section-true">
+                <div class="remaining-cars">
+                    <span>В продаже</span>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="car-model">
+                    BMW I8
+                </div>
+                <img src="img/photo/bmw.jpg" alt="Car" class="car-img">
+                <div class="icon">
+                    <img src="img/icon/speed.png" alt="Icon 1">
+                    <span>1.5 л / 231 л.с. / гибрид</span>
+                    <img src="img/icon/docs.png" alt="Icon 2">
+                    <span>Налог: 17 325 ₽ / год</span>
+                    <img src="img/icon/cash.png" alt="Icon 3">
+                    <span>от 5.5 млн рублей</span>
+                </div>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="top-section-false">
+                <div class="remaining-cars">
+                    <span>Нет данных</span>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="car-model">
+                    Audi A6 45 TFSI Long
+                </div>
+                <img src="img/photo/audi.jpeg" alt="Car" class="car-img">
+                <div class="icon">
+                    <img src="img/icon/speed.png" alt="Icon 1">
+                    <span>2.0 л / 245 л.с. / бензин</span>
+                    <img src="img/icon/docs.png" alt="Icon 2">
+                    <span>Налог: 18 375 ₽ / год</span>
+                    <img src="img/icon/cash.png" alt="Icon 3">
+                    <span>от 9.5 млн рублей</span>
+                </div>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="top-section-true">
+                <div class="remaining-cars">
+                    <span>В продаже</span>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="car-model">
+                    Mercedes-Benz E-CLASS
+                </div>
+                <img src="img/photo/merc.jpg" alt="Car" class="car-img">
+                <div class="icon">
+                    <img src="img/icon/speed.png" alt="Icon 1">
+                    <span>2.0 л / 145 л.с. / дизель</span>
+                    <img src="img/icon/docs.png" alt="Icon 2">
+                    <span>Налог: 5 250 ₽ / год</span>
+                    <img src="img/icon/cash.png" alt="Icon 3">
+                    <span>от 2.5 млн рублей</span>
+                </div>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="top-section-true">
+                <div class="remaining-cars">
+                    <span>В продаже</span>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="car-model">
+                    Ford Explorer v rest
+                </div>
+                <img src="img/photo/ford.jpg" alt="Car" class="car-img">
+                <div class="icon">
+                    <img src="img/icon/speed.png" alt="Icon 1">
+                    <span>3.5 л / 249 л.с. / бензин</span>
+                    <img src="img/icon/docs.png" alt="Icon 2">
+                    <span>Налог: 18 675 ₽ / год</span>
+                    <img src="img/icon/cash.png" alt="Icon 3">
+                    <span>от 2.2 млн рублей</span>
+                </div>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="top-section-true">
+                <div class="remaining-cars">
+                    <span>В продаже</span>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="car-model">
+                    Land Rover Discovery
+                </div>
+                <img src="img/photo/land.jpg" alt="Car" class="car-img">
+                <div class="icon">
+                    <img src="img/icon/speed.png" alt="Icon 1">
+                    <span>3.0 л / 245 л.с. / дизель</span>
+                    <img src="img/icon/docs.png" alt="Icon 2">
+                    <span>Налог: 18 375 ₽ / год</span>
+                    <img src="img/icon/cash.png" alt="Icon 3">
+                    <span>от 1.4 млн рублей</span>
+                </div>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="top-section-true">
+                <div class="remaining-cars">
+                    <span>В продаже</span>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="car-model">
+                    Mitsubishi Pajero Sport
+                </div>
+                <img src="img/photo/mits.jpg" alt="Car" class="car-img">
+                <div class="icon">
+                    <img src="img/icon/speed.png" alt="Icon 1">
+                    <span>2.4 л / 181 л.с. / дизель</span>
+                    <img src="img/icon/docs.png" alt="Icon 2">
+                    <span>Налог: 9 050 ₽ / год</span>
+                    <img src="img/icon/cash.png" alt="Icon 3">
+                    <span>от 3.9 млн рублей</span>
+                </div>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>CarSale</h1>
+    </footer>
+
+</body>
+</html>

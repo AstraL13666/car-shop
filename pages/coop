@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Продажа автомобилей</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CarSale</h1>
+        <p>Сотрудничество</p>
+    </header>
+
+    <div class="filter">
+        <ul>
+            <li><a href="/index">Главная</a></li>
+            <li><a href="/pages/feedback">Отзывы</a></li>
+            <li><a href="/pages/about">О нас</a></li>
+        </ul>
+    </div>
+
+    <section class="car-listing">
+        <div class="card">
+            <div class="top-section-true"></div>
+            <div class="bottom-section">
+                <div class="car-model">Политика</div>
+                <div class="icon">
+                    <img src="/img/icon/docs.png" alt="Icon 1">
+                    <span>Политика сотрудничества</span>
+                </div>
+            </div>
+            <button class="buy-button">Перейти</button>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>CarSale</h1>
+    </footer>
+
+</body>
+</html>
